@@ -16,8 +16,10 @@ const question = () => {
       console.log(`Congratulations, ${name}!`);
     } if (num % 2 === 0 && quest !== 'yes') {
       console.log(`${quest} is wrong answer ;(. Correct answer was 'yes'.\nLet's try again, ${name}!`);
+      return;
     } if (num % 2 !== 0 && quest !== 'no') {
       console.log(`${quest} is wrong answer ;(. Correct answer was 'no'.\nLet's try again, ${name}!`);
+      return;
     }
   }
 };
