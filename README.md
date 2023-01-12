@@ -3,7 +3,7 @@
 
 <a href="https://codeclimate.com/github/VitalGa/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/4f764247cec2f6b8c3d3/maintainability" /></a>
 
-Brain Games
+<h3>Brain Games</h3>
 
 The collection of games for training your brain.
 
