@@ -5,6 +5,8 @@
 
 <h3>Brain Games</h3>
 
+Welcome to my first project. 
+
 The collection of games for training your brain.
 
 <a href="https://asciinema.org/a/551425" target="_blank"><img src="https://asciinema.org/a/551425.svg" /></a>
