@@ -7,4 +7,4 @@
 
 The collection of games for training your brain.
 
-<a href="https://asciinema.org/a/551167" target="_blank"><img src="https://asciinema.org/a/551167.svg" /></a>
+<a href="https://asciinema.org/a/551425" target="_blank"><img src="https://asciinema.org/a/551425.svg" /></a>
