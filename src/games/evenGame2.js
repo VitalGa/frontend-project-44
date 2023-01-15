@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
-import greeting from './cli.js';
-import getRandomInt from './getRandomInt.js';
+import greeting from '../cli.js';
+import getRandomInt from '../getRandomInt.js';
 
 const question = () => {
   const name = readlineSync.question('May I have your name? ');
