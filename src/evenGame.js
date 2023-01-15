@@ -1,4 +1,4 @@
-import engineForAllGames from '.';
+import engineForAllGames from './index.js';
 import getRandomInt from './getRandomInt.js';
 
 const gameRules = 'Answer "yes" if the number is even, otherwise answer "no".';
@@ -13,3 +13,5 @@ const dataForRound = () => {
 };
 
 const evenGame = () => engineForAllGames(gameRules, dataForRound);
+
+export default evenGame;
