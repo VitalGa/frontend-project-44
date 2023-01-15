@@ -27,6 +27,6 @@ const dataForRound = () => {
   return [question, correctAnswer];
 };
 
-const evenGame = () => engineForAllGames(gameRulesCalc, dataForRound);
+const calcGame = () => engineForAllGames(gameRulesCalc, dataForRound);
 
-export default evenGame;
+export default calcGame;
