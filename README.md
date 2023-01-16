@@ -16,3 +16,7 @@ The collection of games for training your brain.
 <h3>calcGame</h3>
 
 <a href="https://asciinema.org/a/551884" target="_blank"><img src="https://asciinema.org/a/551884.svg" /></a>
+
+<h3>gcdGame</h3>
+
+<a href="https://asciinema.org/a/552106" target="_blank"><img src="https://asciinema.org/a/552106.svg" /></a>
