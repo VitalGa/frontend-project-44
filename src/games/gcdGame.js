@@ -3,12 +3,12 @@ import getRandomInt from '../getRandomInt.js';
 
 const gameRulesGcd = 'Find the greatest common divisor of given numbers.';
 
-const expressionGcd = (n1, n2) => {
-  if (n2 === 0) {
-    return n1;
+const expressionGcd = (num1, num2) => {
+  if (num2 === 0) {
+    return num1;
   }
 
-  return expressionGcd(n2, n1 % n2);
+  return expressionGcd(num2, num1 % num2);
 };
 
 const dataForRoundgcd = () => {
@@ -18,7 +18,7 @@ const dataForRoundgcd = () => {
   const question = `${num1} ${num2}`;
   const correctAnswer = String(expressionGcd(num1, num2));
 
-  return (question, correctAnswer);
+  return [question, correctAnswer];
 };
 
 const gcdGame = () => engineForAllGames(gameRulesGcd, dataForRoundgcd);
