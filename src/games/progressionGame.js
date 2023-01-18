@@ -3,9 +3,9 @@ import getRandomInt from '../getRandomInt.js';
 
 const gameRulesProgression = 'What number is missing in the progression?';
 
-const generateProgression = (firstItem, step, Length) => {
+const generateProgression = (firstItem, step, length2) => {
   const array = [];
-  for (let i = 0; i < Length; i += 1) {
+  for (let i = 0; i < length2; i += 1) {
     const result = (firstItem + (step * i));
     array.push(result);
   }
@@ -27,4 +27,4 @@ const dataForRoundProgression = () => {
 
 const progressionGame = () => engineForAllGames(gameRulesProgression, dataForRoundProgression);
 
-export default progressionGame();
+export default progressionGame;
