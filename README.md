@@ -24,3 +24,7 @@ The collection of games for training your brain.
 <h3>progressionGame</h3>
 
 <a href="https://asciinema.org/a/552545" target="_blank"><img src="https://asciinema.org/a/552545.svg" /></a>
+
+<h3>primeGame</h3>
+
+<a href="https://asciinema.org/a/552933" target="_blank"><img src="https://asciinema.org/a/552933.svg" /></a>
