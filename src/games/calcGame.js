@@ -1,4 +1,4 @@
-import engineForAllGames from '../index.js';
+import useEngineForAllGames from '../index.js';
 import getRandomInt from '../getRandomInt.js';
 
 const gameRulesCalc = 'What is the result of the expression?';
@@ -18,7 +18,7 @@ const expression = (num1, operator, num2) => {
   }
 };
 
-const dataForRound = () => {
+const startRound = () => {
   const num1 = getRandomInt(1, 30);
   const num2 = getRandomInt(1, 30);
   const randomOperator = signOfArithmetic[getRandomInt(0, signOfArithmetic.length - 1)];
@@ -27,6 +27,6 @@ const dataForRound = () => {
   return [question, correctAnswer];
 };
 
-const calcGame = () => engineForAllGames(gameRulesCalc, dataForRound);
+const calcGame = () => useEngineForAllGames(gameRulesCalc, startRound);
 
 export default calcGame;

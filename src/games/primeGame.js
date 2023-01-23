@@ -1,4 +1,4 @@
-import engineForAllGames from '../index.js';
+import useEngineForAllGames from '../index.js';
 import getRandomInt from '../getRandomInt.js';
 
 const gameRulesPrime = 'Answer "yes" if given number is prime. Otherwise answer "no"';
@@ -15,7 +15,7 @@ const primeNumber = (num) => {
   return true;
 };
 
-const dataForRoundPrime = () => {
+const startRoundPrime = () => {
   const number = getRandomInt(1, 50);
 
   const question = `${number}`;
@@ -25,6 +25,6 @@ const dataForRoundPrime = () => {
   return [question, correctAnswer];
 };
 
-const primeGame = () => engineForAllGames(gameRulesPrime, dataForRoundPrime);
+const primeGame = () => useEngineForAllGames(gameRulesPrime, startRoundPrime);
 
 export default primeGame;

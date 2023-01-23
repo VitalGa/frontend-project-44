@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
 
-const engineForAllGames = (gameRules, dataForRound) => {
+const useEngineForAllGames = (gameRules, dataForRound) => {
   console.log('Welcome to the Brain Games!');
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
@@ -19,4 +19,4 @@ const engineForAllGames = (gameRules, dataForRound) => {
   return console.log(`Congratulations, ${userName}!`);
 };
 
-export default engineForAllGames;
+export default useEngineForAllGames;

@@ -1,4 +1,4 @@
-import engineForAllGames from '../index.js';
+import useEngineForAllGames from '../index.js';
 import getRandomInt from '../getRandomInt.js';
 
 const gameRulesProgression = 'What number is missing in the progression?';
@@ -12,7 +12,7 @@ const generateProgression = (firstItem, step, length2) => {
   return array;
 };
 
-const dataForRoundProgression = () => {
+const startRoundProgression = () => {
   const first = getRandomInt(1, 10);
   const step = getRandomInt(1, 10);
   const length = getRandomInt(5, 10);
@@ -25,6 +25,6 @@ const dataForRoundProgression = () => {
   return [question, correctAnswer];
 };
 
-const progressionGame = () => engineForAllGames(gameRulesProgression, dataForRoundProgression);
+const progressionGame = () => useEngineForAllGames(gameRulesProgression, startRoundProgression);
 
 export default progressionGame;
