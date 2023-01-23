@@ -9,6 +9,19 @@ Welcome to my first project.
 
 The collection of games for training your brain.
 
+To install the game, you need to type in the command line <b>make install</b>. 
+
+To start the game, you need to type the launch command.
+
+
+The launch command list:
+1. **brain-games** - game with introduction;
+2. **brain-even** - check a number for evenness; 
+3. **brain-calc** - calculate simple expressions;
+4. **brain-gcd** - calculate the greatest common divisor of 2 numbers;
+5. **brain-progression** - calculate and enter missing number from progression;
+6. **brain-prime** - check a number for primality.
+
 <h3>evenGame</h3>
 
 <a href="https://asciinema.org/a/551425" target="_blank"><img src="https://asciinema.org/a/551425.svg" /></a>
