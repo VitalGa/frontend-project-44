@@ -1,5 +1,5 @@
 import useEngineForAllGames from '../index.js';
-import getRandomInt from '../getRandomInt.js';
+import { getRandomInt, getRandomInt2 } from '../getRandomInt.js';
 
 const gameRulesProgression = 'What number is missing in the progression?';
 
@@ -17,7 +17,7 @@ const startRoundProgression = () => {
   const step = getRandomInt(1, 10);
   const length = getRandomInt(5, 10);
   const progression = generateProgression(first, step, length);
-  const randIndex = Math.floor(Math.random() * progression.length);
+  const randIndex = getRandomInt2(progression.length);
 
   const correctAnswer = `${progression[randIndex]}`;
   progression[randIndex] = '..';
