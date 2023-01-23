@@ -3,17 +3,18 @@
 
 <a href="https://codeclimate.com/github/VitalGa/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/4f764247cec2f6b8c3d3/maintainability" /></a>
 
-<h3>Brain Games</h3>
 
-Welcome to my first project. 
+
+Welcome to my first project "Brain Games"!
+
+<br>
+
 
 The collection of games for training your brain.
 
 To install the game, you need to type in the command line <b>make install</b>. 
-
+<br>
 To start the game, you need to type the launch command.
-
-
 The launch command list:
 1. **brain-games** - game with introduction;
 2. **brain-even** - check a number for evenness; 
@@ -21,6 +22,8 @@ The launch command list:
 4. **brain-gcd** - calculate the greatest common divisor of 2 numbers;
 5. **brain-progression** - calculate and enter missing number from progression;
 6. **brain-prime** - check a number for primality.
+<br>
+<ins>In the following videos you can see how to play each of the games:</ins>
 
 <h3>evenGame</h3>
 
