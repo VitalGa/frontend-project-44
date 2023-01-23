@@ -16,7 +16,7 @@ To install the game, you need to type in the command line <b>make install</b>.
 <br>
 To start the game, you need to type the launch command.
 The launch command list:
-1. **brain-games** - game with introduction;
+1. **brain-games** - I'll tell you hello !
 2. **brain-even** - check a number for evenness; 
 3. **brain-calc** - calculate simple expressions;
 4. **brain-gcd** - calculate the greatest common divisor of 2 numbers;
