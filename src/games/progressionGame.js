@@ -25,6 +25,6 @@ const startRoundProgression = () => {
   return [question, correctAnswer];
 };
 
-const progressionGame = () => useEngineForAllGames(gameRulesProgression, startRoundProgression);
+const playProgressionGame = () => useEngineForAllGames(gameRulesProgression, startRoundProgression);
 
-export default progressionGame;
+export default playProgressionGame;
