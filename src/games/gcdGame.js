@@ -21,6 +21,6 @@ const startRoundgcd = () => {
   return [question, correctAnswer];
 };
 
-const gcdGame = () => useEngineForAllGames(gameRulesGcd, startRoundgcd);
+const playGcdGame = () => useEngineForAllGames(gameRulesGcd, startRoundgcd);
 
-export default gcdGame;
+export default playGcdGame;

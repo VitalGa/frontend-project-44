@@ -12,6 +12,6 @@ const startRound = () => {
   return [question, correctAnswer];
 };
 
-const evenGame = () => useEngineForAllGames(gameRules, startRound);
+const playEvenGame = () => useEngineForAllGames(gameRules, startRound);
 
-export default evenGame;
+export default playEvenGame;

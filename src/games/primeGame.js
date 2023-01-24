@@ -25,6 +25,6 @@ const startRoundPrime = () => {
   return [question, correctAnswer];
 };
 
-const primeGame = () => useEngineForAllGames(gameRulesPrime, startRoundPrime);
+const playPrimeGame = () => useEngineForAllGames(gameRulesPrime, startRoundPrime);
 
-export default primeGame;
+export default playPrimeGame;

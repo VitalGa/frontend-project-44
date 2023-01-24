@@ -27,6 +27,6 @@ const startRound = () => {
   return [question, correctAnswer];
 };
 
-const calcGame = () => useEngineForAllGames(gameRulesCalc, startRound);
+const playCalcGame = () => useEngineForAllGames(gameRulesCalc, startRound);
 
-export default calcGame;
+export default playCalcGame;
